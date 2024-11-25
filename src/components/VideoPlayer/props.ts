@@ -1,0 +1,8 @@
+// INTERFACE (TIPAGEM)
+
+export interface VideoPlayerProps {
+    video: any;
+    onShare: () => void;
+    onSave: () => void;
+    onDiscard: () => void;
+}
